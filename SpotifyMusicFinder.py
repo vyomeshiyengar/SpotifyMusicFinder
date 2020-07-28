@@ -1,5 +1,3 @@
-# cd Desktop
-# cd SpotifyMusicFinder
 # export SPOTIPY_CLIENT_ID='07279f7ca3094ddb999e7e2fec4bcc4d'
 # export SPOTIPY_CLIENT_SECRET='CLIENTSECRET'
 # export SPOTIPY_REDIRECT_URI='https://www.google.ca/'
