@@ -1,7 +1,7 @@
 # cd Desktop
 # cd SpotifyMusicFinder
 # export SPOTIPY_CLIENT_ID='07279f7ca3094ddb999e7e2fec4bcc4d'
-# export SPOTIPY_CLIENT_SECRET='647a574cdcde4cacab79564e47628e52'
+# export SPOTIPY_CLIENT_SECRET='CLIENTSECRET'
 # export SPOTIPY_REDIRECT_URI='https://www.google.ca/'
 
 import os
@@ -30,7 +30,6 @@ except:
 
     #create our spotifyObject
 spotifyObject = spotipy.Spotify(auth=token)
-#spotipy.Spotify(auth_manager=spotipy.SpotifyOAuth(username=username))
 
 devices = spotifyObject.devices()
 deviceID = devices['devices'][0]['id']
